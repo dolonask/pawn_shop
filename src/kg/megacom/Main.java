@@ -60,6 +60,15 @@ public class Main {
 
 
 
+        /*
+            ProductService
+                createProduct
+
+            OperationService
+                createOperation
+                closeOperation(date)
+            создание операция
+         */
 
     }
 }

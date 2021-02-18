@@ -11,10 +11,20 @@ public class Operation {
     private int id;
     private Date startDate;
     private Date endDate;
+    private Date closeDate;
     private OperationStatus status;
     private double price;
     private ArrayList<Product> products;
     private Client client;
+
+
+    public Date getCloseDate() {
+        return closeDate;
+    }
+
+    public void setCloseDate(Date closeDate) {
+        this.closeDate = closeDate;
+    }
 
     public int getId() {
         return id;
